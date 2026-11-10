@@ -6,6 +6,7 @@ Rodam no aparelho do lojista: nenhuma IA pela internet.
 | Arquivo | O que é | Licença |
 |---|---|---|
 | isnet-v2.onnx.000 … .008 | ISNet general-use (recorte de fundo), em 9 pedaços de 19 MB. Igual ao original, só com MaxPool ceil_mode=0 (mesmo resultado na entrada 1024; a placa de vídeo do navegador aceita). isnet.onnx.* é a versão antiga, pode apagar | Apache 2.0 — https://github.com/xuebinqin/DIS (cópia de https://github.com/danielgatis/rembg) |
+| vosk-pt-small.tar.gz.000 … .001 | Vosk small pt 0.3 (a Elisa ouve "Oi, Elisa" e escreve o que o lojista fala, no computador), em 2 pedaços de até 19 MB; igual ao original, só sem os arquivos "._" do Mac. O motor (vosk-browser 0.0.8, Apache 2.0) vem do jsDelivr | Apache 2.0 — https://alphacephei.com/vosk/models |
 | upscale-x4.onnx | Real-ESRGAN realesr-general-x4v3 (aumentar qualidade), convertido para ONNX | BSD 3-Clause — https://github.com/xinntao/Real-ESRGAN |
 
 O motor (onnxruntime-web 1.22.0, MIT) vem do jsDelivr.
